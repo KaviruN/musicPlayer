@@ -14,17 +14,6 @@
             cursor: none;
         }
 
-        .icon {
-            font-size: 1.25rem;
-            padding: .5em;
-            cursor: pointer;
-            transition: scale .3s ease-in-out;
-        }
-        
-        .icon:hover,
-        .icon:focus {
-            scale: 1.2;
-        }
 
         .fa-heart {
             color: var(--color-primary);

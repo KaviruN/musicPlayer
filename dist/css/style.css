@@ -101,6 +101,16 @@ em {
   width: 100%;
   height: 80%;
 }
+.container .icon {
+  font-size: 1.25rem;
+  padding: 0.5em;
+  cursor: pointer;
+  transition: scale 0.3s ease-in-out;
+}
+.container .icon:hover,
+.container .icon:focus {
+  scale: 1.2;
+}
 
 .flex__info {
   display: flex;
@@ -113,16 +123,6 @@ em {
   text-transform: uppercase;
   font-weight: 200;
   cursor: none;
-}
-.flex__info .icon {
-  font-size: 1.25rem;
-  padding: 0.5em;
-  cursor: pointer;
-  transition: scale 0.3s ease-in-out;
-}
-.flex__info .icon:hover,
-.flex__info .icon:focus {
-  scale: 1.2;
 }
 .flex__info .fa-heart {
   color: var(--color-primary);
@@ -193,9 +193,27 @@ em {
   display: flex;
   width: 40%;
   justify-content: center;
-  bottom: 14.9375em;
+  bottom: 13.4375em;
 }
 .flex__time p {
   padding: 0;
   margin-right: 0.75em;
+}
+.flex__time i {
+  font-size: 1.75rem;
+}
+
+.flex__songinfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  line-height: 1;
+  margin-top: 2em;
+}
+.flex__songinfo * {
+  position: relative;
+  z-index: 1;
+}
+.flex__songinfo p {
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */

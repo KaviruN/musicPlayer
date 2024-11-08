@@ -35,4 +35,17 @@
       width: 100%;
       height: 80%;
   }
+
+  .icon {
+    font-size: 1.25rem;
+    padding: .5em;
+    cursor: pointer;
+    transition: scale .3s ease-in-out;
+}
+
+  .icon:hover,
+  .icon:focus {
+      scale: 1.2;
+}
+
 }
