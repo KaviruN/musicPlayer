@@ -1,0 +1,28 @@
+@use "../util/" as u;
+
+
+.flex {
+
+    .flex {
+        &__lyrics {
+            position: relative;
+            height: 100px;
+            background-color: rgba(255, 255, 255, 0.195);
+            overflow: hidden;
+            border-start-start-radius: 50%;
+            border-start-end-radius: 50%;
+            border-bottom-left-radius: u.em(31);
+            border-bottom-right-radius: u.em(31);
+            bottom: -16px;
+            backdrop-filter: blur(3px);; /* Apply blur effect */
+            -webkit-backdrop-filter: blur(10px); /* For Safari */
+
+            & .up {
+                color: var(--color-primary);
+                font-weight: 600;
+                font-size: 1rem;
+            }
+        }
+        
+    }
+}

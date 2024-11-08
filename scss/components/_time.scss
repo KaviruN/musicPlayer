@@ -1,0 +1,24 @@
+@use "../util/" as u;
+
+.flex {
+    &__time {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        width: 40%;
+        justify-content: center;
+        bottom: u.em(50);
+        // margin-left: 2em;
+
+        p {
+            padding: 0;
+            margin-right: .75em;
+        }
+
+        i {
+            font-size: 1.75rem;
+        }
+        
+    }
+    
+}

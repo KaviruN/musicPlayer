@@ -1,0 +1,32 @@
+.flex {
+
+
+    &__info {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+
+        p {
+            text-transform: uppercase;
+            font-weight: 200;
+            cursor: none;
+        }
+
+
+        .fa-heart {
+            color: var(--color-primary);
+        }
+
+        .fa-heart:hover {
+            font-weight: 700;
+        }
+
+        marquee{
+            width: 50%;
+        }
+        
+        
+    }
+}

@@ -2,18 +2,52 @@
     background-image: linear-gradient(
         345deg,
         hsl(316deg 84% 25%) 0%,
-        hsl(308deg 97% 20%) 15%,
-        hsl(298deg 100% 17%) 31%,
-        hsl(286deg 100% 17%) 49%,
-        hsl(272deg 100% 17%) 72%,
-        hsl(248deg 95% 17%) 100%
+        hsl(304deg 63% 21%) 15%,
+        hsl(284deg 53% 19%) 31%,
+        hsl(263deg 49% 16%) 49%,
+        hsl(242deg 48% 12%) 72%,
+        hsl(234deg 100% 6%) 100%
     );
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: hsl(0, 0%, 100%);
-    min-height: 100vh;
-    padding: 5em;
-    text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: hsl(0, 0%, 100%);
+  min-height: auto;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+//   border: 5px solid hsl(0, 0%, 100%);
+  padding: 1em 0;
+  border-radius: 2em;
+  // box-shadow: inset 9px 10px 199px -12px rgba(0,0,0,0.75);
+  margin-top: 1em;
+  box-shadow: inset -23px -14px 16px -4px rgba(255, 255, 255, 0.1);
+
+  &__background {
+    position: absolute;
+    top: 0;
+    min-height: auto;
+    width: 90%;
+    border-radius: 2em;
+    
+  }
+
+  &__bgimage{
+      width: 100%;
+      max-width: 500px;
+      height: 80%;
+  }
+
+  .icon {
+    font-size: 1.25rem;
+    padding: .5em;
+    cursor: pointer;
+    transition: scale .3s ease-in-out;
+}
+
+  .icon:hover,
+  .icon:focus {
+      scale: 1.2;
+}
 
 }
