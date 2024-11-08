@@ -18,6 +18,8 @@
   border: 5px solid hsl(0, 0%, 100%);
   padding: 1em 0;
   border-radius: 2em;
+  box-shadow: inset 9px 10px 199px -12px rgba(0,0,0,0.75);
+//   box-shadow: 12px 14px 149px -42px rgb(39, 37, 37);
 
   &__background {
     position: absolute;
