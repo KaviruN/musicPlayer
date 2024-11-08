@@ -87,8 +87,8 @@ em {
   text-align: center;
   padding: 1em 0;
   border-radius: 2em;
-  box-shadow: inset 9px 10px 199px -12px rgba(0, 0, 0, 0.75);
   margin-top: 1em;
+  box-shadow: inset -23px -14px 16px -4px rgba(255, 255, 255, 0.1);
 }
 .container__background {
   position: absolute;
@@ -185,4 +185,17 @@ em {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 50%;
+}
+
+.flex__time {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  bottom: 14.9375em;
+}
+.flex__time p {
+  padding: 0;
+  margin-right: 0.75em;
 }/*# sourceMappingURL=style.css.map */
