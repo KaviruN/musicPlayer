@@ -1,0 +1,14 @@
+.flex {
+    &__circle3 {
+        display: flex;
+        justify-content: center;
+       
+        img {
+            aspect-ratio: 1/1;
+            position: relative;
+            background-color: var(--color-primary);
+            border-radius: 50%;
+            width: 50%;
+        }
+    }
+}
