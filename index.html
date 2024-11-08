@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MusicPlayer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/4deb7e25f1.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="dist/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="flex">
+        <div class="flex__info">
+          <i class="fa-solid fa-angle-left"></i>
+          <p id="auioStatus">playing now</p>
+          <i
+            class="fa-regular fa-heart flex__info-favorit"
+            id="isFavorite"
+          ></i>
+        </div>
+
+        <div class="flex__cover">
+          <div class="flex__circle1">
+            <div class="flex__circle2">
+              <div class="flex__circle3">
+                <img src="../img/image.png" alt="cover img" />
+              </div>
+              <div class="flex__time">
+                <p class="flex__curentTime" id="curentTime">12.00</p>
+                <p class="flex__duration" id="duration">32.00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex__songinfo">
+            <i class="fa-solid fa-shuffle"></i>
+            <div class="flex__songtitle">
+              <h2 id="songTitle">song title</h2>
+              <p id="songArtist">song artist</p>
+            </div>
+            <i class="fa-solid fa-infinity"></i>
+          </div>
+
+          <div class="flex__controls">
+            <i class="fa-solid fa-backward"></i>
+            <i class="fa-solid fa-play" id="play"></i>
+            <i class="fa-solid fa-forward"></i>
+          </div>
+
+          <div class="flex__lyrcs">
+            <div class="flex__lyrcs-circle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
