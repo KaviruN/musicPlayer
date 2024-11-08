@@ -12,8 +12,13 @@
 }
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", serif;
+  background-color: var(--color-black);
 }
 body img {
   display: block;
@@ -76,7 +81,10 @@ em {
   background-repeat: no-repeat;
   background-size: cover;
   color: hsl(0, 0%, 100%);
-  min-height: 100vh;
-  padding: 5em;
+  min-height: auto;
+  width: 90%;
   text-align: center;
+  border: 5px solid hsl(0, 0%, 100%);
+  padding: 1em 0;
+  border-radius: 2em;
 }/*# sourceMappingURL=style.css.map */
