@@ -2,12 +2,12 @@
 
 .flex {
     &__time {
-        position: absolute;
+        position: relative;
         z-index: 1;
         display: flex;
         width: 40%;
         justify-content: center;
-        bottom: u.em(215);
+        bottom: u.em(50);
         // margin-left: 2em;
 
         p {

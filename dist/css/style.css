@@ -188,12 +188,12 @@ em {
 }
 
 .flex__time {
-  position: absolute;
+  position: relative;
   z-index: 1;
   display: flex;
   width: 40%;
   justify-content: center;
-  bottom: 13.4375em;
+  bottom: 3.125em;
 }
 .flex__time p {
   padding: 0;
@@ -245,4 +245,18 @@ em {
 }
 .flex__controls .icon {
   font-size: 2rem;
+}
+
+.flex .flex__lyrics {
+  position: relative;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.195);
+  overflow: hidden;
+  border-start-start-radius: 50%;
+  border-start-end-radius: 50%;
+  border-bottom-left-radius: 1.9375em;
+  border-bottom-right-radius: 1.9375em;
+  bottom: -16px;
+  backdrop-filter: blur(3px); /* Apply blur effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
 }/*# sourceMappingURL=style.css.map */
