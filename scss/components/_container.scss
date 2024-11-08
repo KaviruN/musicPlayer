@@ -1,18 +1,19 @@
 .container {
-  background-image: linear-gradient(
-    345deg,
-    hsl(316deg 84% 25%) 0%,
-    hsl(308deg 97% 20%) 15%,
-    hsl(298deg 100% 17%) 31%,
-    hsl(286deg 100% 17%) 49%,
-    hsl(272deg 100% 17%) 72%,
-    hsl(248deg 95% 17%) 100%
-  );
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: hsl(0, 0%, 100%);
-  min-height: 100vh;
-  padding: 5em;
-  
+    background-image: linear-gradient(
+        345deg,
+        hsl(316deg 84% 25%) 0%,
+        hsl(308deg 97% 20%) 15%,
+        hsl(298deg 100% 17%) 31%,
+        hsl(286deg 100% 17%) 49%,
+        hsl(272deg 100% 17%) 72%,
+        hsl(248deg 95% 17%) 100%
+    );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: hsl(0, 0%, 100%);
+    min-height: 100vh;
+    padding: 5em;
+    text-align: center;
+
 }
