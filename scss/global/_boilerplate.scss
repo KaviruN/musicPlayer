@@ -1,4 +1,4 @@
-@use '../util/' as u;
+@use "../util/" as u;
 
 *,
 *::before,
@@ -17,10 +17,8 @@ body {
   font-family: "Poppins", serif;
   background-color: var(--color-black);
 
-  
-
-img {
-  display: block;
-  max-width: 100%;
-}
+  img {
+    display: block;
+    max-width: 100%;
+  }
 }

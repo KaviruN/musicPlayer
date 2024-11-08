@@ -76,7 +76,7 @@ em {
 }
 
 .container {
-  background-image: linear-gradient(345deg, hsl(316, 84%, 25%) 0%, hsl(308, 97%, 20%) 15%, hsl(298, 100%, 17%) 31%, hsl(286, 100%, 17%) 49%, hsl(272, 100%, 17%) 72%, hsl(248, 95%, 17%) 100%);
+  background-image: linear-gradient(345deg, hsl(316, 84%, 25%) 0%, hsl(308, 97%, 20%) 15%, hsl(298, 100%, 17%) 31%, hsl(286, 100%, 17%) 49%, hsl(272, 100%, 17%) 72%, hsl(247, 84%, 12%) 100%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -87,4 +87,15 @@ em {
   border: 5px solid hsl(0, 0%, 100%);
   padding: 1em 0;
   border-radius: 2em;
+}
+.container__background {
+  position: absolute;
+  top: 0;
+  min-height: auto;
+  width: 90%;
+  border-radius: 2em;
+}
+.container__bgimage {
+  width: 100%;
+  height: 80%;
 }/*# sourceMappingURL=style.css.map */
