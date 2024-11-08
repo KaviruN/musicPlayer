@@ -1,16 +1,39 @@
 .flex {
-  &__info {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    &__info {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
 
-    & p {
-      font-size: 1.35rem;
-      cursor: pointer;
-    }
+        p {
+            text-transform: uppercase;
+            font-weight: 200;
+            cursor: none;
+        }
 
-    & .icon:hover {
-      color: aqua;
+        .icon {
+            font-size: 1.25rem;
+            padding: .5em;
+            cursor: pointer;
+            transition: scale .3s ease-in-out;
+        }
+        
+        .icon:hover,
+        .icon:focus {
+            scale: 1.2;
+        }
+
+        .fa-heart {
+            color: var(--color-primary);
+        }
+
+        .fa-heart:hover {
+            font-weight: 700;
+        }
+
+        marquee{
+            width: 50%;
+        }
+        
+        
     }
-  }
 }
