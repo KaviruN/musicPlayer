@@ -17,9 +17,12 @@ body {
   margin: 0;
   font-family: "Poppins", serif;
   background-color: var(--color-black);
+  
 
   img {
     display: block;
     max-width: 100%;
+    position: relative;
+    max-height: 900px;
   }
 }

@@ -24,6 +24,8 @@ body {
 body img {
   display: block;
   max-width: 100%;
+  position: relative;
+  max-height: 900px;
 }
 
 h1,
@@ -100,6 +102,7 @@ em {
 }
 .container__bgimage {
   width: 100%;
+  max-width: 500px;
   height: 80%;
 }
 .container .icon {
