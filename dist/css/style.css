@@ -236,7 +236,13 @@ em {
   border-radius: 50%;
   color: hsla(0, 0%, 0%, 0.581);
   background: linear-gradient(250deg, var(--color-primary), var(--color-secondary)) border-box;
+  transition: all 0.3s ease-in-out;
 }
 .flex__controls .play:hover {
   color: hsla(0, 0%, 0%, 0.781);
+  opacity: 1;
+  background: linear-gradient(180deg, var(--color-primary), var(--color-secondary)) border-box;
+}
+.flex__controls .icon {
+  font-size: 2rem;
 }/*# sourceMappingURL=style.css.map */
