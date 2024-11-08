@@ -260,4 +260,9 @@ em {
   bottom: -16px;
   backdrop-filter: blur(3px); /* Apply blur effect */
   -webkit-backdrop-filter: blur(10px); /* For Safari */
+}
+.flex .flex__lyrics .up {
+  color: var(--color-primary);
+  font-weight: 600;
+  font-size: 1rem;
 }/*# sourceMappingURL=style.css.map */
