@@ -1,3 +1,6 @@
+@use "../util/" as u;
+
+
 .flex {
     &__circle3 {
         display: flex;
@@ -9,6 +12,7 @@
             background-color: var(--color-primary);
             border-radius: 50%;
             width: 50%;
+            // border: u.em(2) solid var(--color-primary);
         }
     }
 }
