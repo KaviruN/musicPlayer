@@ -113,6 +113,9 @@ em {
      object-fit: cover;
   border-radius: 2em;
 }
+.container * {
+  z-index: 1;
+}
 
 .flex__info {
   display: flex;
