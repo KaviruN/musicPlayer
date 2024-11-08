@@ -106,6 +106,8 @@ em {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  position: relative;
+  z-index: 1;
 }
 .flex__info p {
   text-transform: uppercase;
